@@ -1,8 +1,8 @@
 document.addEventListener ("DOMContentLoaded", function() {
     const dogImgsContainer = document.getElementById("dog-images")
     const dogbtn = document.getElementById("new-dogbtn");
-    // const likebtns = document.getElementById("like-btn");
-    // const commentbtns = document.getElementById("comment-btn");
+    const likebtns = document.getElementById("like-btn");
+    const commentbtns = document.getElementById("comment-btn");
     function addDogImages () {
         fetch ("https://random.dog/woof.json")
         .then(res => res.json())
@@ -17,10 +17,14 @@ document.addEventListener ("DOMContentLoaded", function() {
 
     dogbtn.addEventListener ("click", addDogImages)
     dogbtn.addEventListener ("mouseenter",{
-        handleEvent: (e) => {e.target.style.backgroundColor ="pink"}
+        handleEvent: (e) => {e.target.style.backgroundColor = "pink"}
     })
-    // likebtns.addEventListener("click",addlike)
-    // commentbtns.addEventListener("click",addComment)
+    likebtns.addEventListener("click",{
+        handleEvent: (e) => {e.target.style.backgroundColor = "pink"}
+    })
+    commentbtns.addEventListener("click",{
+        handleEvent: (e) => {e.target.style.backgroundColor = "pink}"
+}})
     addDogImages()
 
 }) 
