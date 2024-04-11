@@ -39,6 +39,10 @@ Clone this repository using
     ```bash
       node index.js
     ```
+#### Live link
+
+  https://cessaneh.github.io/PHASE-1-PROJECT/  
+  
 ## Technologies Used
 
 * JS
