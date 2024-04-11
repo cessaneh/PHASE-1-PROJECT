@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .catch(error => console.error("error dog image:", error));
     }
-    
-
     dogbtn.addEventListener("click", addDogImages);
 
     commentBtn.addEventListener("click", function() {
