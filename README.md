@@ -1,4 +1,4 @@
-# PHASE-1-PROJECT
+
 #### DOG PICTURE GENERATOR
 #### JavaScript console application that genearates random dog pictures from the API used.
 
