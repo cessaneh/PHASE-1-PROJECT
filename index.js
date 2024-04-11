@@ -30,6 +30,5 @@ document.addEventListener("DOMContentLoaded", function() {
             commentInput.value = "";
         }
     });
-
     addDogImages(); 
 });
