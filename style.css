@@ -9,7 +9,7 @@
     background-color: coral;
 
 }
-/* .container {
+.container {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
@@ -21,7 +21,7 @@
 h1 {
     color: #333;
 }
-#dog-images {
+/* #dog-images {
     margin-top: 20px;
 }
 
@@ -48,5 +48,5 @@ img {
     text-emphasis-color: blue
     ;
 }
-
  */
+
